@@ -20,5 +20,5 @@ for attribute in dir(Guncelkod):
     if callable(attribute_value):
         if attribute.startswith('__') == False:
             guncelleme.append(attribute)    
+    system("cls||clear")
 
-open(cc.py)
